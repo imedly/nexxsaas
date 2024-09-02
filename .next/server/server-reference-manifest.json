@@ -1,0 +1,30 @@
+{
+  "node": {
+    "0fc39839e4fdfaf0236e0053afd0a497c034eddc": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ciddou%5C%5CDesktop%5C%5Csaas%5C%5Cnexx-saas%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions%5C%5CinvalidateCache.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(user)/dashboard/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ciddou%5C%5CDesktop%5C%5Csaas%5C%5Cnexx-saas%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions%5C%5CinvalidateCache.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(user)/projects/[projectId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ciddou%5C%5CDesktop%5C%5Csaas%5C%5Cnexx-saas%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions%5C%5CinvalidateCache.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(user)/projects/[projectId]/instructions/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ciddou%5C%5CDesktop%5C%5Csaas%5C%5Cnexx-saas%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions%5C%5CinvalidateCache.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(user)/payments/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ciddou%5C%5CDesktop%5C%5Csaas%5C%5Cnexx-saas%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions%5C%5CinvalidateCache.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/(user)/dashboard/page": "action-browser",
+        "app/(user)/projects/[projectId]/page": "action-browser",
+        "app/(user)/projects/[projectId]/instructions/page": "action-browser",
+        "app/(user)/payments/page": "action-browser"
+      }
+    },
+    "24b89382aafe8b292065dd9c961336765fbd03f8": {
+      "workers": {
+        "app/(user)/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ciddou%5C%5CDesktop%5C%5Csaas%5C%5Cnexx-saas%5C%5Cactions%5C%5CcreateProject.tsx%22%2C%5B%22createProject%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(user)/dashboard/page": "rsc"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "4+Dbd1vTocaEATIte7yUYLGyYEhIz0fReeAjFqmnqtY="
+}
