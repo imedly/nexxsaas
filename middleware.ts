@@ -7,5 +7,9 @@ export default clerkMiddleware((auth, req) => {
 });
 
 export const config = {
-  matcher: ["/((?!.*\\..*|_next).*)", "/", "/(api|trpc)(.*)"],
+  matcher: [
+    "/payments/checkout-success",  // Route protégée
+    "/((?!.*\\..*|_next).*)", "/", 
+    "/(api|trpc)(.*)"
+  ],
 };

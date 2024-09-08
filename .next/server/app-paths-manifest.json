@@ -1,10 +1,7 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/api/stripe/checkout-session/route": "app/api/stripe/checkout-session/route.js",
-  "/(user)/dashboard/page": "app/(user)/dashboard/page.js",
-  "/(user)/projects/[projectId]/page": "app/(user)/projects/[projectId]/page.js",
   "/(user)/payments/page": "app/(user)/payments/page.js",
-  "/(user)/payments/subscribe/page": "app/(user)/payments/subscribe/page.js"
+  "/(user)/dashboard/page": "app/(user)/dashboard/page.js",
+  "/(user)/payments/subscribe/page": "app/(user)/payments/subscribe/page.js",
+  "/(user)/projects/[projectId]/instructions/page": "app/(user)/projects/[projectId]/instructions/page.js"
 }
