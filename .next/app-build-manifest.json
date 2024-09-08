@@ -31,15 +31,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(user)/projects/[projectId]/page.js"
     ],
-    "/(user)/projects/[projectId]/instructions/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(user)/projects/[projectId]/instructions/page.js"
-    ],
     "/(user)/payments/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(user)/payments/page.js"
+    ],
+    "/(user)/payments/subscribe/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(user)/payments/subscribe/page.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }
