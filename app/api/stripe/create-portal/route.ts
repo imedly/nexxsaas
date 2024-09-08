@@ -51,7 +51,7 @@ export async function POST(req: Request) {
   try {
     const url = await stripe.billingPortal.sessions.create({
       customer: customer.id,
-      return_url: `https://nexxsaas.vercel.app/payments`,
+      return_url: `${baseUrl}/payments`,
     });
 
     if (url) {
