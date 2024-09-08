@@ -43,7 +43,7 @@ export async function POST(req: Request) {
     });
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://nexxsaas.vercel.app";
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
 
   if (!customer?.id) {
     return new Response(JSON.stringify({ error: "Failed to get a customer id" }), { status: 500 });
